@@ -1,0 +1,123 @@
+@font-face {
+  font-family: dosis;
+  src: url("../font/Dosis-VariableFont_wght.ttf");
+}
+
+* {
+  max-width: 400px;
+}
+
+body {
+  font-family: dosis;
+  padding-top: 90px;
+  background-image: url("https://images.unsplash.com/photo-1565988955641-596a9cc8efeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 18px;
+}
+
+.logo {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 75px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+input:first-of-type {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 18px;
+  padding: 10px 20px;
+  display: block;
+  width: 70%;
+  margin: 10px auto;
+}
+
+input {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 18px;
+  padding: 10px 20px;
+  width: 33%;
+  margin: 10px auto;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+input::placeholder {
+  color: white;
+  font-family: dosis;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+p:nth-of-type(2) {
+  display: inline;
+  margin: 0 5px;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.391);
+  border-radius: 18px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+  font-family: dosis;
+}
+
+.daten {
+  padding: 10px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 18px;
+  margin-top: 20px;
+  display: none;
+  color: red;
+  text-align: center;
+}
+
+.daten p {
+  text-align: left;
+  line-height: 20px;
+}
+
+.daten p:nth-of-type(1) {
+  font-size: 30px;
+  text-align: center;
+}
+
+.daten p:nth-of-type(2) {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.daten h3 {
+  color: white;
+  font-size: 50px;
+  margin: 10px 0;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 100;
+}
+
+.cityname {
+  color: white;
+  font-size: 50px;
+  margin: 0 auto;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 100;
+}

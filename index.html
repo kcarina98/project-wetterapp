@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wetter</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="body">
+    <img class="logo" src="./assets/img/icons8-weather (1).svg" alt="" />
+
+    <!-- input Felder -->
+    <form onsubmit="return false">
+      <input
+        type="text"
+        id="search"
+        placeholder="Gib hier deine Stadt ein..."
+      />
+      <p>oder</p>
+      <input type="text" id="plz" placeholder="Postleitzahl" />
+      <p>&</p>
+      <input type="text" id="country" placeholder="Ländercode (DE)" />
+
+      <!-- -Such-Button -->
+      <button class="search-button">Suche</button>
+    </form>
+
+    <!-- * Daten Output -->
+    <h3 class="cityname"></h3>
+    <div class="daten"></div>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
